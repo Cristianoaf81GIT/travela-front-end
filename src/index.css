@@ -1,0 +1,49 @@
+body {
+  margin: 0;  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px; 
+  max-height: 100%;   
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar { 
+  max-height: 15vh;  
+}
+
+label {
+  text-align: right;  
+}
+
+@media (min-width: 1200px) {
+  .navbar {
+    max-height: 10vh;
+  }
+}
+
+@font-face {
+  font-family: caveat;
+  src: url(./app/assets/Caveat-Bold.ttf);
+}
+
+@font-face {
+  font-family: caveat-regular;
+  src: url(./app/assets/Caveat-Regular.ttf);
+}
+
+@font-face {
+  font-family: monserrat;
+  src: url(./app/assets/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: monserrat-light;
+  src: url(./app/assets/Montserrat-Light.ttf);  
+}

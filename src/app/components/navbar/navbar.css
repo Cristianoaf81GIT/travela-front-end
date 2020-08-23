@@ -1,0 +1,20 @@
+.navlogo {
+  height: 8vh;
+  margin-top: 0.05em;   
+  padding: 0;
+  margin-left: 1em;
+}
+
+.brand-title {
+  color: white;
+  font-family: caveat;
+  text-shadow: 3px 3px 1px #000;
+  font-size: 2em;
+  margin-right: 1em;
+}
+
+@media (min-width: 1200px) {
+  .navlogo {
+    margin-top: 1.8vh;
+  }
+}

@@ -1,0 +1,27 @@
+.text-container {
+  font-family: monserrat-light;
+  font-size: 1.2em;  
+  margin-top: 5px;
+}
+
+.logo {
+  height: 80vmin;
+  pointer-events: none;
+  margin-top: 40vmin; 
+  animation: gravity 10s ease infinite;  
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    height: 50vmin;
+    margin-top: 10vmin; 
+    animation: gravity 10s ease infinite;  
+  }
+}
+
+@keyframes gravity {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+

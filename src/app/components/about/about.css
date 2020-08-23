@@ -1,0 +1,20 @@
+.about-container {
+  text-align: justify;
+  text-justify: inter-ideograph;
+  font-family: monserrat-light;
+  font-size: 1.3em; 
+  float: right; 
+  margin-top: 100px; 
+  color: #000;
+  text-shadow: 1px 1px #fff; 
+}
+
+.about-container > h3 {
+  font-family: caveat;
+}
+
+@media (max-width: 1000px) {
+  .about-container {
+    padding: 1.5em;    
+  }
+}

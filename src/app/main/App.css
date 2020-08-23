@@ -1,0 +1,34 @@
+.App {
+  text-align: center;  
+}
+
+.App-logo {
+  height: 80vmin;
+  pointer-events: none;
+  margin-top: 40vmin;   
+  
+}
+
+@media (min-width: 1200px) {
+  .App {
+    width: 80vw;
+    max-height: 90vh;
+    margin: auto;    
+    padding: 0;
+    
+  }
+  .App-logo {
+    height: 50vmin;
+    margin-top: 20vmin;        
+    opacity: 1.2;
+  }
+}
+
+@media (max-width: 1030px) {
+  .App-logo {
+    height: 60vmin;
+    margin-top: 15vmin;    
+  }
+}
+
+
